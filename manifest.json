@@ -1,0 +1,92 @@
+{
+  "schema": 1,
+  "launcher_title": "Mi Servidor",
+  "subtitle": "Launcher oficial",
+  "accent": "#2ea043",
+  "news": [
+    {
+      "title": "¡Bienvenido!",
+      "body": "Elige una experiencia, pulsa JUGAR y entrarás directo al servidor."
+    },
+    {
+      "title": "Próximo evento",
+      "body": "Edita branding.json para cambiar estas noticias sin reconstruir el launcher."
+    }
+  ],
+  "experiences": [
+    {
+      "name": "Evento NeoForge",
+      "description": "Evento especial con mods de NeoForge. Cambia aquí la versión de Minecraft y del loader cuando quieras.",
+      "minecraft_version": "1.21.1",
+      "loader": {
+        "type": "neoforge",
+        "version": "21.1.172"
+      },
+      "server": {
+        "host": "evento.tuservidor.com",
+        "port": 25565
+      },
+      "strict_mods": true,
+      "enabled_resourcepacks": [],
+      "java_args": "",
+      "id": "evento-neoforge",
+      "files": [
+        {
+          "path": "mods/DEDsafio4FanByNavithLabs-1.4.0-1.21.1.jar",
+          "url": "https://github.com/EricLeyva21/mi-launcher-files/releases/download/v1.0.0/DEDsafio4FanByNavithLabs-1.4.0-1.21.1.jar",
+          "sha1": "d2a9ced04ed7ee07b210ea63f87889f501b86ee2",
+          "size": 283281384
+        },
+        {
+          "path": "mods/fabric-api-0.116.17+1.21.1.jar",
+          "url": "https://github.com/EricLeyva21/mi-launcher-files/releases/download/v1.0.0/fabric-api-0.116.17+1.21.1.jar",
+          "sha1": "810b2b0195371a012906241d8b85a32a1d6de53c",
+          "size": 2452735
+        },
+        {
+          "path": "mods/plasmovoice-fabric-1.21.1-2.2.0-beta.2.jar",
+          "url": "https://github.com/EricLeyva21/mi-launcher-files/releases/download/v1.0.0/plasmovoice-fabric-1.21.1-2.2.0-beta.2.jar",
+          "sha1": "f92e3e273f9b7f9d3a11675d3bda40c8656994d8",
+          "size": 12886906
+        }
+      ]
+    },
+    {
+      "name": "Survival 1.21.1",
+      "description": "El mundo principal del servidor con mods de calidad de vida.",
+      "minecraft_version": "1.21.1",
+      "loader": {
+        "type": "fabric",
+        "version": "0.16.10"
+      },
+      "server": {
+        "host": "play.tuservidor.com",
+        "port": 25565
+      },
+      "strict_mods": true,
+      "enabled_resourcepacks": [],
+      "java_args": "",
+      "id": "survival-1.21.1",
+      "files": [
+        {
+          "path": "mods/DEDsafio4FanByNavithLabs-1.4.0-1.21.1.jar",
+          "url": "https://github.com/EricLeyva21/mi-launcher-files/releases/download/v1.0.0/DEDsafio4FanByNavithLabs-1.4.0-1.21.1.jar",
+          "sha1": "d2a9ced04ed7ee07b210ea63f87889f501b86ee2",
+          "size": 283281384
+        },
+        {
+          "path": "mods/fabric-api-0.116.17+1.21.1.jar",
+          "url": "https://github.com/EricLeyva21/mi-launcher-files/releases/download/v1.0.0/fabric-api-0.116.17+1.21.1.jar",
+          "sha1": "810b2b0195371a012906241d8b85a32a1d6de53c",
+          "size": 2452735
+        },
+        {
+          "path": "mods/plasmovoice-fabric-1.21.1-2.2.0-beta.2.jar",
+          "url": "https://github.com/EricLeyva21/mi-launcher-files/releases/download/v1.0.0/plasmovoice-fabric-1.21.1-2.2.0-beta.2.jar",
+          "sha1": "f92e3e273f9b7f9d3a11675d3bda40c8656994d8",
+          "size": 12886906
+        }
+      ]
+    }
+  ]
+}
